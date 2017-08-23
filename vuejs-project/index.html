@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <link rel = "stylesheet" href = "style.css"/>
+        <div id = "main">
+            <div id="editable">
+                <input v-model="text1" maxlength="20"> 
+                <p>{{text1}}</p>
+            </div>
+            <div id="reverse">
+                <p>{{ text2 }}</p>
+                <button v-on:click="reverseMessage">Reverse Message</button>
+            </div>
+        </div>
+        <script src = "https://unpkg.com/vue"></script>
+        <script src = "main.js"></script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body {
+    background: url('https://images.unsplash.com/photo-1473800447596-01729482b8eb?dpr=1&auto=format&fit=crop&w=1366&h=768&q=80&cs=tinysrgb&crop=&bg=') center center;
+}
+p {
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+}
+#main {
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    margin: -100px 0 0 -150px;
+    border:5px dashed black;
+    background: wheat;
+}
+
+div {
+    text-align: center;
+}
+
+input {}
