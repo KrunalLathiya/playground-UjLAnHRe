@@ -16,7 +16,7 @@ Inside that directory, create three components files. These files are as showing
 
   }
 </script>
-
+```
 
  # Step 2: Config vue-router module.
 
