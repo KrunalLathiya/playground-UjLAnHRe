@@ -53,7 +53,6 @@ Finally, create Contact.vue file.
     <body>
         <link rel = "stylesheet" href = "style.css"/>
         <div id="app"></div>
-        <script src = "https://unpkg.com/vue"></script>
         <script src = "main.js"></script>
     </body>
 </html>
