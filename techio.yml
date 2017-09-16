@@ -11,7 +11,7 @@ plan:
 # Settings for your programming projects and the associated Docker images
 projects:
   angular:
-    root: /vuejs-project # Set the root path to your angular project
+    root: /vuejs-project # Set the root path to your vuejs project
     # Set the docker image. This image runs npm install for you on every build
     runner:
       name: zimdo/docker-vuejs
