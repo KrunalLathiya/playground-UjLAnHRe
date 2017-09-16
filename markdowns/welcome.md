@@ -1,12 +1,22 @@
 # Welcome!
+    
+How to use vue-router is today’s our most important topic. VueJS is frontend Library which can be used with any backend Languages. If we want to create fully functional front end application, then vue-router and vue-resource are two great pillars in VueJS. So today we will deep dive on vue-router. Routing is the way to manage the components in a Single Page Applications. All the Famous Front End Frameworks utilizes the concept of Routing.
 
-This Vue.js template lets you get started quickly with a simple working example using Vue.js, HTML, and CSS. If it is your first contribution then you should have a look at the [Getting Started](https://tech.io/doc/getting-started-create-playground) documentation.
+# Step 1: Make one components directory inside your project.
 
-The source code for this template is on [GitHub](https://github.com/TechDotIO/vuejs-template), please feel free to come up with proposals to improve it.
+Inside that directory, create three components files. These files are as showing in snippets.
 
-# Hands-on Demo
+@[Sample Vue.js App]({"stubs": ["components/Home.vue", "components/About.vue", "components/Contact.vue"], "command": "/bin/bash run.sh"})
 
-@[Sample Vue.js App]({"stubs": ["index.html", "component.js"], "command": "/bin/bash run.sh"})
+ # Step 2: Config vue-router module.
+
+ In main.js file first, we need to import a vue-router module from a node_modules folder because we have installed all of our dependencies in this project. Copy the following code into our main.js file.
+
+@[Sample Vue.js App]({"stubs": ["main.js"], "command": "/bin/bash run.sh"})
+
+# Step 3: Our final files would be something like this.
+
+@[Sample Vue.js App]({"stubs": ["main.js", "index.html", "components/Home.vue", "components/About.vue", "components/Contact.vue"], "command": "/bin/bash run.sh"})
 
 Check out the markdown file [`welcome.md`](https://github.com/TechDotIO/vuejs-template/blob/master/markdowns/welcome.md) to see how this exercise is injected into the template.
 
