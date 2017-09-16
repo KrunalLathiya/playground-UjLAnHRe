@@ -6,7 +6,17 @@ How to use vue-router is today’s our most important topic. VueJS is frontend L
 
 Inside that directory, create three components files. These files are as showing in snippets.
 
-@[Sample Vue.js App]({"stubs": ["components/Home.vue", "components/About.vue", "components/Contact.vue"], "command": "/bin/bash run.sh"})
+```javascript
+<template>
+  <h1>Home</h1>
+</template>
+
+<script>
+  export default {
+
+  }
+</script>
+
 
  # Step 2: Config vue-router module.
 
