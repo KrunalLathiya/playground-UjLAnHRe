@@ -6,7 +6,7 @@ How to use vue-router is today’s our most important topic. VueJS is frontend L
 
 Inside that directory, create three components files. These files are as showing in snippets.
 
-```javascript
+```vue
 // Home.vue
 
 <template>
@@ -20,7 +20,7 @@ Inside that directory, create three components files. These files are as showing
 </script>
 ```
 Then create About.vue file.
-```javascript
+```vue
 // About.vue
 
 <template>
@@ -34,7 +34,7 @@ Then create About.vue file.
 </script>
 ```
 Finally, create Contact.vue file.
-```javascript
+```vue
 // Contact.vue
 
 <template>
