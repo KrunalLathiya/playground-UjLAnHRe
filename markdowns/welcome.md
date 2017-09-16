@@ -8,6 +8,7 @@ Inside that directory, create three components files. These files are as showing
 
 ```javascript
 // Home.vue
+
 <template>
   <h1>Home</h1>
 </template>
@@ -21,6 +22,7 @@ Inside that directory, create three components files. These files are as showing
 Then create About.vue file.
 ```javascript
 // About.vue
+
 <template>
   <h1>About us</h1>
 </template>
@@ -34,6 +36,7 @@ Then create About.vue file.
 Finally, create Contact.vue file.
 ```javascript
 // Contact.vue
+
 <template>
   <h1>Contact us</h1>
 </template>
