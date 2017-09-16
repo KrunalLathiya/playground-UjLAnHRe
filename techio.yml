@@ -14,5 +14,5 @@ projects:
     root: /vuejs-project # Set the root path to your vuejs project
     # Set the docker image. This image runs npm install for you on every build
     runner:
-      name: webpack-dev-server
+      name: zimdo/docker-vuejs
       version: latest
