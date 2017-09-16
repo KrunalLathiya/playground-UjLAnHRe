@@ -52,7 +52,42 @@ Finally, create Contact.vue file.
 
  In main.js file first, we need to import a vue-router module from a node_modules folder because we have installed all of our dependencies in this project. Copy the following code into our main.js file.
 
-@[Sample Vue.js App]({"stubs": ["main.js"], "command": "/bin/bash run.sh"})
+```javascript
+// main.js
+
+import Vue from 'vue'
+import VueRouter from 'vue-router'
+
+Vue.use(VueRouter)
+
+import Home from './components/Home.vue'
+import About from './components/About.vue'
+import Contact from './components/Contact.vue'
+
+const router = new VueRouter({
+  mode: 'history',
+  base: __dirname,
+  routes: [
+    { path: '/', component: Home },
+    { path: '/about', component: About },
+    { path: '/contact', component: Contact }
+  ]
+})
+
+new Vue({
+  router,
+  template: `
+    <div id="app">
+      <ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/about">About</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
+      </ul>
+      <router-view></router-view>
+    </div>
+  `
+}).$mount('#app')
+```
 
 # Step 3: Our final files would be something like this.
 
