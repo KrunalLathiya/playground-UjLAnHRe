@@ -2,7 +2,7 @@
 
 How to use vue-router is today’s our most important topic. VueJS is frontend Library which can be used with any backend Languages. If we want to create fully functional front end application, then vue-router and vue-resource are two great pillars in VueJS. So today we will deep dive on vue-router. Routing is the way to manage the components in a Single Page Applications. All the Famous Front End Frameworks utilizes the concept of Routing.
 
-# Step 1: Make three components directory inside your project.
+# Step 1: Make three components inside your components directory.
 
 Inside that directory, create three components files. These files are as showing in snippets.
 
