@@ -1,6 +1,7 @@
+var path = require('path');
 module.exports = {
   // This is the "main" file which should include all other modules
-  entry: 'main.js',
+  entry: path.resolve(__dir,'/main.js'),
   // Where should the compiled file go?
   output: {
     filename: 'bundle.js'
