@@ -1,6 +1,6 @@
 module.exports = {
   // This is the "main" file which should include all other modules
-  entry: './vuejs-project/main.js',
+  entry: 'main.js',
   // Where should the compiled file go?
   output: {
     filename: 'bundle.js'
