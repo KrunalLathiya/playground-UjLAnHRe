@@ -1,1 +1,1 @@
-echo "CG> open --port=3000 /inbound"
+echo TECHIO > open -s /project/target/ index.html
