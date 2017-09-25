@@ -1,1 +1,1 @@
-TECHIO> open -p 3000 /
+echo TECHIO> open -p 3000 /
