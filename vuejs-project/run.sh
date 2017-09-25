@@ -1,1 +1,1 @@
-echo TECHIO > open -s /project/target/ index.html
+TECHIO> open -p 3000 /
