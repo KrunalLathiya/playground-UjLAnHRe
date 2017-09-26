@@ -13,7 +13,7 @@ projects:
   angular:
     root: /vuejs-project # Set the root path to your vuejs project
     # Set the docker image. This image runs npm install for you on every build
-    buildCommand: npm install && npm start
+    buildCommand: npm install
     runner:
       name: zimdo/docker-vuejs
       version: latest
