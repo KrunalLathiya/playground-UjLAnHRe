@@ -105,4 +105,7 @@ new Vue({
 
 # Step 4: Now, run the code and see the final output.
 
-@[Sample Vue.js App]({"stubs": ["main.js", "index.html", "components/Home.vue", "components/About.vue", "components/Contact.vue"], "command": "/bin/bash run.sh"})
+Now, there are three items in Navigation bar and if you click on one of them, the underlying route will change and you can see our vue-router application works.
+I have included all the main project files in here as well as, you can find this project on [Github](https://github.com/KrunalLathiya/playground-UjLAnHRe)
+
+@[Sample Vue.js App]({"stubs": ["package.json","webpack.config.js","main.js", "index.html", "components/Home.vue", "components/About.vue", "components/Contact.vue"], "command": "/bin/bash run.sh"})
