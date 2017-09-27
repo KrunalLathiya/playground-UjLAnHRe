@@ -20,7 +20,7 @@ const router = new VueRouter({
 new Vue({
   router,
   template: `
-    <div class="container">
+    <div>
       <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
