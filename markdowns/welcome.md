@@ -65,14 +65,14 @@ Finally, create Contact.vue file.
 ```javascript
 // main.js
 
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+import Vue from 'vue';
+import VueRouter from 'vue-router';
 
-Vue.use(VueRouter)
+Vue.use(VueRouter);
 
-import Home from './components/Home.vue'
-import About from './components/About.vue'
-import Contact from './components/Contact.vue'
+import Home from './components/Home.vue';
+import About from './components/About.vue';
+import Contact from './components/Contact.vue';
 
 const router = new VueRouter({
   mode: 'history',
@@ -82,7 +82,7 @@ const router = new VueRouter({
     { path: '/about', component: About },
     { path: '/contact', component: Contact }
   ]
-})
+});
 
 new Vue({
   router,
@@ -100,7 +100,7 @@ new Vue({
       <router-view class="view"></router-view>
     </div>
   `
-}).$mount('#app')
+}).$mount('#app');
 ```
 
 # Step 4: Now, run the code and see the final output.
